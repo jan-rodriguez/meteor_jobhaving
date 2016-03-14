@@ -1,0 +1,83 @@
+/* CSS declarations go here */
+
+body {
+  font-family: Arvo, sans-serif;
+}
+
+form.new_person {
+  z-index: 10;
+}
+
+.container {
+  width: 100%;
+}
+
+input[type="text"] {
+  border-radius: 4px;
+  font-size: 15px;
+  color: #6f6f6f;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  margin: 15px auto;
+  padding: 9px 6px 9px 15px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-appearance: none;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+span.message {
+  font-weight: 700;
+}
+
+span.time-stamp {
+  color: #aaa;
+}
+
+/*#no {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 30em;
+  cursor: default;
+  pointer-events: none;
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(-30deg); }
+    50% { -moz-transform: rotate(30deg); }
+    100% { -moz-transform: rotate(-30deg); }
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(-30deg); }
+    50% { -webkit-transform: rotate(30deg); }
+    100% { -webkit-transform: rotate(-30deg); }
+}
+@keyframes spin {
+    0% { transform: rotate(-30deg); }
+    50% { transform: rotate(30deg); }
+    100% { transform: rotate(-30deg); }
+}
+
+*/

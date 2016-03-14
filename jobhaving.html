@@ -1,0 +1,28 @@
+<head>
+  <title>jobhaving</title>
+  <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+  <!-- <div id="no">NO</div> -->
+
+  <div class="container">
+    {{>chatroom}}
+    <ul>
+      {{#each messages}}
+        {{>message}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="message">
+  <li><span class="time-stamp">{{createdAt}}</span>: <span class="message">{{text}}</span></li>
+</template>
+
+<template name="chatroom">
+  <form class="new-person">
+    <input type="text" name="text" placeholder="Enter message" />
+  </form>
+</template>
+

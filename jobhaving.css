@@ -37,7 +37,7 @@ span.time-stamp {
   color: #aaa;
 }
 
-/*#no {
+#no {
   position: absolute;
   top: 20%;
   left: 20%;
@@ -80,4 +80,4 @@ span.time-stamp {
     100% { transform: rotate(-30deg); }
 }
 
-*/
+
